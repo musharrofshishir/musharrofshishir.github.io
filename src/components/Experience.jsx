@@ -15,26 +15,26 @@ gsap.registerPlugin(ScrollTrigger)
 const experiences = [
   {
     year: 'Nov 2024 — Mar 2026',
-    title: 'Senior UI Developer & Technical Lead',
+    title: 'Senior UI Developer / Senior Technical Support / Bug Fixing Team Lead',
     company: 'Appifylab',
     description:
       'Directed a bug-fixing team, streamlining the end-to-end issue lifecycle and reducing Time-to-Resolution. Spearheaded the transition of legacy UI components to Next.js & Tailwind CSS. Partnered with CEO and COO on product research, feature prioritization, and translating user feedback into technical requirements. Conducted high-conversion technical product demos for international clients.',
-    tags: ['Next.js', 'Tailwind CSS', 'Team Leadership', 'Product Ops'],
+    tags: ['Next.js', 'Tailwind CSS', 'Team Leadership', 'Product Ops', 'Calendly', 'Trello', 'Crisp', 'Zapier'],
   },
   {
-    year: 'Apr 2023 — Oct 2024',
-    title: 'UI Engineer / Mid-Level Developer',
+    year: 'Nov 2021 — Apr 2024',
+    title: 'Senior Front End Developer / UI Engineer',
     company: 'Appifylab',
     description:
-      'Took ownership of complex UI features — real-time dashboards, multi-step wizards, and scalable component architecture. Built the frontend for Housiko, an international real estate marketplace, with high-speed search filters. Championed accessibility standards (WCAG 2.1 AA) and modular component libraries.',
-    tags: ['React', 'TypeScript', 'a11y', 'Component Architecture'],
+      'Took ownership of complex UI features — real-time dashboards, multi-step wizards, and scalable component architecture. Built the frontend for Housiko, an international real estate marketplace, with high-speed search filters. Championed accessibility standards (WCAG 2.1 AA) and modular component libraries. During this period, I did the Housiko UI design as well from Figma to production.',
+    tags: ['React', 'Javascript', 'Figma', 'Tailwind CSS', 'HTML/CSS'],
   },
   {
-    year: 'Nov 2021 — Mar 2023',
+    year: 'Apr 2021 — Oct 2021',
     title: 'Front End Developer',
     company: 'Appifylab',
     description:
-      'Started professional journey executing frontend layouts and interactive components using HTML, CSS, and JavaScript. Contributed to Appifylab\'s flagship products from day one, rapidly growing from junior to mid-level capabilities.',
+      'Started professional journey executing frontend layouts and interactive components using HTML, CSS, and JavaScript. Contributed to Appifylab\'s clients & flagship products from day one, rapidly growing from junior to mid to senior-level capabilities.',
     tags: ['HTML/CSS', 'JavaScript', 'React', 'Figma'],
   },
 ]
@@ -144,20 +144,18 @@ function Experience() {
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className={`exp-item relative grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 ${
-                  index % 2 === 0 ? '' : 'md:text-right'
-                }`}
+                className={`exp-item relative grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 ${index % 2 === 0 ? '' : 'md:text-right'
+                  }`}
               >
                 {/* Dot on timeline */}
                 <div className="exp-dot absolute left-0 md:left-1/2 top-2 w-3 h-3 rounded-full bg-accent -translate-x-[5px] md:-translate-x-[6px] z-10 shadow-[0_0_12px_rgba(200,169,110,0.4)]" />
 
                 {/* Content - alternating sides on desktop */}
                 <div
-                  className={`pl-8 md:pl-0 ${
-                    index % 2 === 0
+                  className={`pl-8 md:pl-0 ${index % 2 === 0
                       ? 'md:pr-16'
                       : 'md:col-start-2 md:pl-16'
-                  }`}
+                    }`}
                 >
                   {/* Year */}
                   <span className="font-sans text-xs tracking-[0.2em] uppercase text-accent mb-3 block">
