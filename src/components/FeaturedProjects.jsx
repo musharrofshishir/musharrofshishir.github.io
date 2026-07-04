@@ -25,8 +25,19 @@ const projects = [
     url: 'https://rylicstudio.com/',
   },
   {
-    id: 'kagan',
+    id: 'totalpet',
     number: '02',
+    title: 'TotalPet',
+    subtitle: 'Shopify E-Commerce',
+    description:
+      'A fully optimized, high-performance Shopify e-commerce storefront. Engineered with customized sections, robust theme architecture, and tailored product discovery flows.',
+    tags: ['Shopify', 'Liquid', 'E-Commerce', 'Frontend'],
+    color: '#f58220', // Vibrant pet-brand friendly accent color
+    url: 'https://totalpet.com/',
+  },
+  {
+    id: 'kagan',
+    number: '03',
     title: 'Kagan Institute',
     subtitle: 'Educational Platform',
     description:
@@ -37,7 +48,7 @@ const projects = [
   },
   {
     id: 'xeomin',
-    number: '03',
+    number: '04',
     title: 'XeominPromo',
     subtitle: 'Healthcare Promotion',
     description:
@@ -48,7 +59,7 @@ const projects = [
   },
   {
     id: 'impact',
-    number: '04',
+    number: '05',
     title: 'Impact Lending Pros',
     subtitle: 'Financial Services',
     description:
@@ -59,7 +70,7 @@ const projects = [
   },
   {
     id: 'stint',
-    number: '05',
+    number: '06',
     title: 'Stint',
     subtitle: 'Chrome Extension',
     description:
@@ -71,7 +82,7 @@ const projects = [
   },
   {
     id: 'housiko',
-    number: '06',
+    number: '07',
     title: 'Housiko',
     subtitle: 'Real Estate Platform',
     description:
