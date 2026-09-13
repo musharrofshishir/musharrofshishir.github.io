@@ -21,7 +21,7 @@ const projects = [
         description:
             "A complete cutting-edge web presence for Rylic Studio. Featuring immersive animations, custom smooth scrolling, and a high-performance portfolio showcase.",
         tags: ["Next.js", "GSAP", "UI/UX", "Animation"],
-        image: "../../public/assets/images/rylic.png",
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/rylic.png",
         color: "#4A2D3E",
         url: "https://rylicstudio.com/",
     },
@@ -33,7 +33,7 @@ const projects = [
         description:
             "A fully optimized, high-performance Shopify e-commerce storefront. Engineered with customized sections, robust theme architecture, and tailored product discovery flows.",
         tags: ["Shopify", "Liquid", "E-Commerce", "Frontend"],
-        image: null,
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/totalpet.png",
         color: "#f58220", // Vibrant pet-brand friendly accent color
         url: "https://totalpet.com/",
     },
@@ -45,7 +45,7 @@ const projects = [
         description:
             "A productivity-focused Chrome extension that helps users manage their time and tasks with a clean interface built with React.",
         tags: ["Chrome Extension", "React", "Productivity", "V3"],
-        image: "/assets/images/chrome.svg",
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/stint-wallpaper.jpg",
         color: "#2D4A3E",
         url: "https://chromewebstore.google.com/detail/babnjknjffkajdinemgegbobpalcfdkp?utm_source=item-share-cb",
     },
@@ -57,7 +57,7 @@ const projects = [
         description:
             "A premium educational interface for medical professionals. Focused on content hierarchy, accessibility, and a clean, high-end design language.",
         tags: ["React", "SCSS", "Medical", "Education"],
-        image: null,
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/kagan.png",
         color: "#1A2D3E",
         url: "https://www.kaganinstitute.com/",
     },
@@ -69,7 +69,7 @@ const projects = [
         description:
             "A dedicated promotional platform designed for the Kagan Institute, featuring conversion-optimized layouts and high-performance frontend architecture.",
         tags: ["Marketing", "Frontend", "Optimization", "Medical"],
-        image: null,
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/xeomin.png",
         color: "#3E2D4A",
         url: "https://xeominpromo.com/",
     },
@@ -81,7 +81,7 @@ const projects = [
         description:
             "A robust financial services dashboard for private lending. Built with a focus on data visualization, fast interactions, and secure user flows.",
         tags: ["FinTech", "Dashboard", "React", "Data Viz"],
-        image: null,
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/impact.png",
         color: "#1A3A5C",
         url: "https://www.impactlendingpros.com/",
     },
@@ -93,7 +93,7 @@ const projects = [
         description:
             "A modern real estate marketplace developed while at Appifylab. Featuring interactive maps, property filtering, and seamless lead management.",
         tags: ["Next.js", "Appifylab", "Real Estate", "TypeScript"],
-        image: null,
+        image: "https://raw.githubusercontent.com/musharrofshishir/musharrofshishir.github.io/refs/heads/main/public/assets/images/housiko.png",
         color: "#2D3E4A",
         url: "https://housiko.com",
     },
